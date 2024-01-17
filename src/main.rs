@@ -152,7 +152,6 @@ impl UpdateRecord {
 #[allow(clippy::upper_case_acronyms)]
 #[derive(Debug, Clone, Copy, Serialize, Deserialize)]
 enum DNSType {
-
     A,
     AAAA,
     NS,
